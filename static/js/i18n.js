@@ -1,4 +1,4 @@
-// Elder Care MIS — Bilingual i18n (EN / ZH)
+// Evergreen — Bilingual i18n (EN / ZH)
 // Usage: window.I18n.t('key') returns current-language string
 // All keys are English; ZH provides Chinese overrides.
 
@@ -36,7 +36,6 @@
     // ── Topbar / General ──
     'Skip to main content': '跳转到主内容',
     'Toggle navigation': '切换导航',
-    'Foundation MIS': '基金会管理系统',
 
     // ── Delete Modal (base.html) ──
     'Confirm Delete': '确认删除',
@@ -59,7 +58,7 @@
     'Remember me': '记住我',
     'Secure Access': '安全访问',
     'Protected by role-based access control': '受基于角色的访问控制保护',
-    'Management Information System for tracking donations, personnel, events, and financial reporting.': '用于追踪捐款、人员、活动和财务报告的管理信息系统。',
+    'A management platform for elder care foundations, bringing together donations, personnel, gifts, events, and finance with visual analytics and intelligent data queries.': '面向养老公益基金会的综合管理平台，整合捐赠、人员、物资、活动与财务管理，并提供可视化分析和智能数据查询，支持机构的日常运营与管理决策。',
 
     // ── Dashboard ──
     'Overview of foundation activity and key metrics': '基金会活动概览与关键指标',
@@ -693,9 +692,9 @@
     'Chinese': '中文',
 
     // ── Brand name ──
-    'Elder Care': '老年关爱',
-    'Foundation': '基金会',
-    'Elder Care Foundation': '老年关爱基金会',
+    'Evergreen': 'Evergreen',
+    'Elder Care Foundation Management Platform': '养老公益基金会管理平台',
+    'System Optimization Suggestions - Evergreen': '系统优化建议 - Evergreen',
 
     // ── Dashboard chart data labels (from DB) ──
     'Donation': '捐款',

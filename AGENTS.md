@@ -3,8 +3,8 @@
 ## Scope
 These instructions apply to the whole repository.
 
-This project is a Flask-based Management Information System for an elder care
-foundation. It uses Jinja templates, Bootstrap 5, Flask-Login, direct SQLite
+Evergreen is a Flask-based Elder Care Foundation Management Platform for
+elder care foundations. It uses Jinja templates, Bootstrap 5, Flask-Login, direct SQLite
 access, and a bundled `elder_care.db` database. Keep changes small, local to the
 requested feature or fix, and consistent with the existing blueprint/template
 patterns.

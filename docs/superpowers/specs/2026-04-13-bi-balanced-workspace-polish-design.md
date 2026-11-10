@@ -23,7 +23,7 @@ The next improvement should not rebuild the BI module. The selected direction is
 2. Keep the current "Business question + left control rail + right output workspace" structure.
 3. Emphasize the decision flow: question, summary, chart, detail table.
 4. Improve mobile usability without changing the product's behavior.
-5. Stay within the current Elder Care visual system: warm backgrounds, green accents, terracotta action color, restrained borders, and compact operational copy.
+5. Stay within the current Evergreen visual system: warm backgrounds, green accents, terracotta action color, restrained borders, and compact operational copy.
 
 ## Non-Goals
 

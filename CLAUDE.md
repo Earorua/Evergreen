@@ -1,7 +1,9 @@
-# Elder Care Foundation MIS
+# Evergreen | Elder Care Foundation Management Platform
 
 ## Overview
-Flask-based Management Information System for an elder care foundation. Connects to an SQLite database (19 tables), providing CRUD management across 8 modules: Dashboard, Donations, Personnel, Gifts, Events, Finance, BI Explorer, and AI Agent. Features RBAC access control, GAAS-compliant financial reports, a dynamic BI query builder, and read-only natural-language database analysis through OpenRouter.
+Evergreen is a Flask-based management platform for elder care foundations, integrating donations, personnel, gifts, events, finance, visual analytics, and intelligent data queries. Connects to an SQLite database (19 tables), providing CRUD management across 8 modules: Dashboard, Donations, Personnel, Gifts, Events, Finance, BI Explorer, and AI Agent. Features RBAC access control, GAAS-compliant financial reports, a dynamic BI query builder, and read-only natural-language database analysis through OpenRouter.
+
+**Brand:** Evergreen in both English and Chinese interfaces. English descriptor: "Elder Care Foundation Management Platform"; Chinese descriptor: "养老公益基金会管理平台".
 
 ## Tech Stack
 - Flask + Jinja2 + Flask-Login
@@ -45,12 +47,12 @@ Flask-based Management Information System for an elder care foundation. Connects
 
 ## Project Structure
 ```
-C:\Users\XF\Desktop\elder_care_gui\
+Evergreen/
 ├── app.py                  # Entry point + Flask-Login + seed users (4)
 ├── config.py               # DB path, secret key, OpenRouter AI Agent config
 ├── db.py                   # get_db / query_db / execute_db
 ├── elder_care.db           # SQLite database file (bundled)
-├── elder_care_logo.png     # Original logo source image
+├── elder_care_logo.png     # Legacy source image (not used in the interface)
 ├── requirements.txt        # Flask, Flask-Login
 ├── USER_MANUAL.md          # User manual
 ├── blueprints/
@@ -78,7 +80,7 @@ C:\Users\XF\Desktop\elder_care_gui\
 └── static/
     ├── css/style.css       # "Botanical Warmth" theme — Playfair Display + Outfit, sage/terracotta/gold palette
     ├── js/i18n.js          # Bilingual i18n engine (EN/ZH): translation dict + DOM auto-apply + language toggle
-    └── img/logo.png        # Transparent-background logo (auto-generated from elder_care_logo.png)
+    └── img/logo.png        # Evergreen icon: hands supporting an elder, without embedded text
 ```
 
 ## UI/Design System — "Botanical Warmth"
@@ -116,7 +118,7 @@ C:\Users\XF\Desktop\elder_care_gui\
 
 ## How to Run
 ```bash
-cd C:\Users\XF\Desktop\elder_care_gui
+cd Evergreen
 pip install -r requirements.txt
 python app.py
 # Open http://127.0.0.1:5000 in browser, login with admin / admin123

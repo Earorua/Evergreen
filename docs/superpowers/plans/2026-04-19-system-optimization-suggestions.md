@@ -601,8 +601,8 @@ Create `templates/suggestions/submit.html`:
 <a href="#suggestion-main" class="skip-link" data-i18n="Skip to main content">Skip to main content</a>
 <div class="topbar">
   <a href="{{ url_for('dashboard.index') }}" class="d-flex align-items-center gap-2 text-decoration-none">
-    <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" style="width:34px;height:34px;object-fit:contain;">
-    <span class="fw-semibold" data-i18n="Elder Care">Elder Care</span>
+    <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Evergreen" style="width:34px;height:34px;object-fit:contain;">
+    <span class="fw-semibold" data-i18n="Evergreen">Evergreen</span>
   </a>
   <div class="topbar-right">
     <button id="langToggleBtn" class="btn btn-sm lang-toggle-btn" onclick="I18n.setLang(I18n.getLang()==='en'?'zh':'en')" title="Switch language">
@@ -919,7 +919,7 @@ Create `templates/suggestions/admin_list.html`:
 ```jinja2
 {% extends "base.html" %}
 {% from "macros/i18n_values.html" import value as i18n_value %}
-{% block title %}System Optimization Suggestions - Elder Care MIS{% endblock %}
+{% block title %}System Optimization Suggestions - Evergreen{% endblock %}
 {% block breadcrumb %}<span data-i18n="System Optimization Suggestions">System Optimization Suggestions</span>{% endblock %}
 {% block content %}
 <div class="page-header">

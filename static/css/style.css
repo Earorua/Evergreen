@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════
-   Elder Care MIS — "Botanical Warmth"
+   Evergreen — "Botanical Warmth"
    Playfair Display + Outfit · Sage · Terracotta · Gold
    ══════════════════════════════════════════════════ */
 
@@ -173,7 +173,8 @@ a:hover { color: var(--accent-hover); }
   font-family: 'Outfit', sans-serif;
   font-size: .62rem;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
+  line-height: 1.6;
   color: rgba(200,164,92,.45);
   margin-top: .25rem;
   font-weight: 400;

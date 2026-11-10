@@ -1,8 +1,14 @@
-# Elder Care MIS 用户手册
+# Evergreen 用户手册
 
 ## 1. 系统简介
 
-Elder Care MIS（养老关怀基金会管理信息系统）是一套基于 Web 的综合管理平台，涵盖捐赠管理、人员排班、礼品物流、活动策划、财务报表、BI 数据分析和 AI Agent 智能问答七大业务模块，并通过基于角色的访问控制（RBAC）确保不同岗位的员工只能访问与其职责相关的功能。
+**Evergreen | Elder Care Foundation Management Platform**
+
+**长青 | 养老公益基金会管理平台**
+
+面向养老公益基金会的综合管理平台，整合捐赠、人员、物资、活动与财务管理，并提供可视化分析和智能数据查询，支持机构的日常运营与管理决策。
+
+平台提供中英文界面，并通过基于角色的访问控制（RBAC）确保不同岗位的员工只能访问与其职责相关的功能。品牌名称在两种语言下统一显示为 Evergreen。
 
 **技术环境**：Flask + Bootstrap 5 + SQLite + OpenRouter API，浏览器访问 `http://127.0.0.1:5000`。
 
@@ -10,10 +16,11 @@ Elder Care MIS（养老关怀基金会管理信息系统）是一套基于 Web �
 
 ## 2. 安装与启动
 
-数据库文件已内置于项目目录中，无需额外配置，解压后即可运行：
+数据库文件已内置于项目目录中。克隆项目后即可运行；如使用下载的压缩包，请进入实际解压目录：
 
 ```bash
-cd elder_care_gui
+git clone https://github.com/Earorua/Evergreen.git
+cd Evergreen
 pip install -r requirements.txt
 python app.py
 ```

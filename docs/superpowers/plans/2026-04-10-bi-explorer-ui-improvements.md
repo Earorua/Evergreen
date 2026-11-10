@@ -350,7 +350,7 @@ def _get_total(domain, filters):
 
 - [ ] **Step 7: Verify backend by starting the server**
 
-Run: `cd C:\Users\XF\Desktop\elder_care_gui && python app.py`
+Run: `cd Evergreen && python app.py`
 
 Open browser to `http://127.0.0.1:5000/bi`, login as admin/admin123. Verify the page loads without Python errors. The UI still shows only 2 domain buttons (frontend not updated yet), but no server errors should appear.
 

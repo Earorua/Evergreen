@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Login - Elder Care MIS{% endblock %}
+{% block title %}Login - Evergreen{% endblock %}
 {% block content_noauth %}
 <!-- Language Toggle (Login Page) -->
 <button id="langToggleBtn" class="btn btn-sm lang-toggle-btn login-lang-toggle" onclick="I18n.setLang(I18n.getLang()==='en'?'zh':'en')" title="切换为中文">
@@ -16,10 +16,10 @@
   <span class="leaf" style="left:70%;animation-delay:9s;font-size:1.4rem;">&#127810;</span>
   <span class="leaf" style="left:85%;animation-delay:12s;font-size:2rem;">&#127811;</span>
   <div class="login-left-content">
-    <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" style="width:72px;height:72px;object-fit:contain;filter:brightness(0) invert(1) sepia(1) saturate(.2) hue-rotate(15deg);opacity:.75;">
-    <div style="font-size:.55rem;text-transform:uppercase;letter-spacing:3px;color:rgba(255,255,255,.4);font-family:'Outfit',sans-serif;font-weight:500;margin-top:.6rem;"><span data-i18n="Elder Care">Elder Care</span><br><span data-i18n="Foundation">Foundation</span></div>
-    <h2 style="margin-top:2rem;" data-i18n="Elder Care Foundation">Elder Care Foundation</h2>
-    <p data-i18n="Management Information System for tracking donations, personnel, events, and financial reporting.">Management Information System for tracking<br>donations, personnel, events, and financial reporting.</p>
+    <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Evergreen" style="width:72px;height:72px;object-fit:contain;filter:brightness(0) invert(1) sepia(1) saturate(.2) hue-rotate(15deg);opacity:.75;">
+    <div style="font-size:.55rem;text-transform:uppercase;letter-spacing:3px;color:rgba(255,255,255,.4);font-family:'Outfit',sans-serif;font-weight:500;margin-top:.6rem;"><span data-i18n="Elder Care Foundation Management Platform">Elder Care Foundation Management Platform</span></div>
+    <h2 style="margin-top:2rem;" data-i18n="Evergreen">Evergreen</h2>
+    <p data-i18n="A management platform for elder care foundations, bringing together donations, personnel, gifts, events, and finance with visual analytics and intelligent data queries.">A management platform for elder care foundations, bringing together donations, personnel, gifts, events, and finance with visual analytics and intelligent data queries.</p>
   </div>
 </div>
 <!-- Right: Login Form -->
