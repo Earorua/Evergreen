@@ -1,10 +1,8 @@
 # Evergreen
 
-**Elder Care Foundation Management Platform**
+**简体中文** | [English](README.en.md)
 
 **养老公益基金会管理平台**
-
-A management platform for elder care foundations, bringing together donations, personnel, gifts, events, and finance with visual analytics and intelligent data queries.
 
 面向养老公益基金会的综合管理平台，整合捐赠、人员、物资、活动与财务管理，并提供可视化分析和智能数据查询，支持机构的日常运营与管理决策。
 
